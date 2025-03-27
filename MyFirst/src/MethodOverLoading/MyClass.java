@@ -16,11 +16,22 @@ public class MyClass {
     public void getData1(String a, int b, int c) throws Exception {
         System.out.println("getData4");
     }
+
     /*
-    Not dependent on return type
+    //Not dependent on return type
     public String getData1(String a, int b){
         System.out.println("getData2");
         return null;
+    }*/
+
+    /*
+    //Different return type
+    private void calc(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    private int calc(int a, int b) {
+        return 0;
     }*/
 
 }
