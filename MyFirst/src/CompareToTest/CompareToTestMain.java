@@ -2,7 +2,7 @@ package CompareToTest;
 
 import java.util.ArrayList;
 
-public class CompareToTestMAin {
+public class CompareToTestMain {
 
     public static void main(String[] args) {
         ArrayList<Student> al = new ArrayList<Student>();

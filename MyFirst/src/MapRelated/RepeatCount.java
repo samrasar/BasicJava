@@ -23,7 +23,6 @@ public class RepeatCount {
         HashMap<String, Integer> hm1 = new HashMap<>();
         for (String s : strArray) {
             if (hm1.containsKey(s)) {
-
                 hm1.put(s, hm1.get(s) + 1);
             } else {
                 hm1.put(s, 1);

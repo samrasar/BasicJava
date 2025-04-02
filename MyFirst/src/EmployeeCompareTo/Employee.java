@@ -1,4 +1,4 @@
-package EmployeeCompare;
+package EmployeeCompareTo;
 
 public class Employee implements Comparable<Employee>{
 	public String name;

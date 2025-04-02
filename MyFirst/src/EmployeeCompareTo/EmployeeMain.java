@@ -1,4 +1,4 @@
-package EmployeeCompare;
+package EmployeeCompareTo;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,8 +13,8 @@ public class EmployeeMain {
 		emp.add(new Employee("fgh", 30));
 		Collections.sort(emp);
 		for (Employee e : emp) {
-			System.out.println(e.name);
-			System.out.println(e.age);
+			System.out.println("Name: "+e.name);
+			System.out.println("Age: "+e.age);
 		}
 	}
 }
