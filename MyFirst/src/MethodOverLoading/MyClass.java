@@ -17,12 +17,11 @@ public class MyClass {
         System.out.println("getData4");
     }
 
-    /*
     //Not dependent on return type
     public String getData1(String a, int b){
         System.out.println("getData2");
         return null;
-    }*/
+    }
 
     /*
     //Different return type
